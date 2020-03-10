@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(deserto.jpg);
+    width: 50%;
+    margin: auto;
+}
+
+header {
+    border-bottom: 2px solid white;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+header img {
+    width: 100px;
+    vertical-align: middle;
+}
+
+main {
+    margin-top: 15px;
+}
+
+#ricerca {
+    padding-bottom: 15px;
+    border-bottom: 2px solid white;
+}
+
+#email-nonlette {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    padding: 10px;
+    background-color: darkgreen;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.email {
+    padding: 3px;
+    border-bottom: 2px solid white;
+    background-color: grey;
+}
+
+.email-letta {
+    padding: 3px;
+    border-bottom: 2px solid white;
+    background-color: white;
+}
+
+footer {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+}
